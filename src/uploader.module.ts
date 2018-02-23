@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { Uploader } from './uploader.service';
+import { Uploader } from '.';
 
 @NgModule({
   providers: [
