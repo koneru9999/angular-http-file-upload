@@ -1,15 +1,15 @@
 export class UploadItem {
-    method: string = 'POST';
-    url: string = '';
+    method = 'POST';
+    url = '';
     headers: any = {};
     formData: any = {};
     withCredentials = false;
-    alias: string = 'file';
+    alias = 'file';
     file: any = {};
-    
+
     xhr: any = {};
 
-    abort(){
+    abort() {
         this.xhr.abort();
     }
 }
