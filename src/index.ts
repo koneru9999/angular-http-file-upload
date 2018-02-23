@@ -1,2 +1,2 @@
-export * from './taggify.pipe';
-export * from './taggify.module';
+export * from './uploader.service';
+export * from './uploader.module';
