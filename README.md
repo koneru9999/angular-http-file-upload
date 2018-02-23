@@ -1,7 +1,12 @@
 # angular-http-file-upload
-Library to support HTTP file uploads for Angular (tested with Angular5).
+Library to support HTTP file uploads for Angular (tested with Angular 5).
 
 This is extension of <https://github.com/j-zeng/angular2-http-file-upload> to support Angular 5.
+
+## Getting Started
+```
+npm install angular-http-file-upload@latest --save
+```
 
 ## Add file upload service to your project
 ```
@@ -73,3 +78,7 @@ An upload progress callback is also available:
              // progress callback
         };
 ```
+
+## License
+
+MIT © [Venkaiah Chowdary Koneru]
