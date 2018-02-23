@@ -5,13 +5,12 @@
     "name": "Venkaiah Chowdary Koneru",
     "email": "koneru.chowdary@gmail.com"
   },
-  "version": "1.0.0",
+  "version": "0.0.2",
   "license": "MIT",
   "main": "src/index.ts",
   "scripts": {
     "start": "ng serve --aot",
     "build": "ng-packagr -p ng-package.json",
-    "build-ghpages": "ng build --base-href \"https://koneru9999.github.io/angular-http-file-upload/\" --output-path \"dist-ghpages\"",
     "test": "npm run lint && ng test --watch false",
     "test-watch": "ng test",
     "e2e": "ng e2e",
@@ -30,11 +29,9 @@
     "angular",
     "angular5",
     "HTTP",
+    "file",
     "upload",
-    "library",
-    "typescript",
-    "angular-cli",
-    "ng-packagr"
+    "library"
   ],
   "private": false,
   "peerDependencies": {
