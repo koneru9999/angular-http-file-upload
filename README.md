@@ -13,11 +13,11 @@ npm install angular-http-file-upload@latest --save
 // app.module.ts
 
 import { NgModule }      from '@angular/core';
-import { Uploader }      from 'angular-http-file-upload';
+import { UploaderModule }      from 'angular-http-file-upload';
 
 @NgModule({
     // your module meta data here...
-    providers: [ Uploader ]
+    imports: [ UploaderModule.forRoot() ]
 })
 export class AppModule { }
 ```
